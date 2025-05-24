@@ -19,9 +19,9 @@
 
 fire_safety_crm/
 ├── clients/ # Django приложение "clients"
-│ ├── migrations/ # Миграции базы данных
-│ ├── templates/clients/ # HTML шаблоны для приложения clients
-│ │ ├── client_form.html
+│   ├── migrations/ # Миграции базы данных
+│   ├── templates/clients/ # HTML шаблоны для приложения clients
+│   │   ├── client_form.html
 │ │ ├── client_list.html
 │ │ ├── client_report.html
 │ ├── init.py
@@ -49,3 +49,6 @@ fire_safety_crm/
 ├── package.json # Для npm/Playwright и автотестов
 ├── README.md
 └── .gitignore
+
+
+
