@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from clients import views
 
 urlpatterns = [
-    path('clients/', include('clients.urls')),      # для фронтенд клиентов
-    path('api/', include('clients.api_urls')),      # для API клиентов
+    path('', views.client_list, name='home'),       # корень сайта — список клиентов
+    path('clients/', include('clients.urls')),      # фронтенд клиентов
+    path('api/', include('clients.api_urls')),      # API клиентов
     path('admin/', admin.site.urls),
 ]

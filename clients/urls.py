@@ -8,5 +8,7 @@ urlpatterns = [
     path('edit/<int:pk>/', views.client_edit, name='client_edit'),
     path('api/clients/', ClientListCreateAPIView.as_view(), name='api_clients_list_create'),
     path('api/clients/<int:pk>/', ClientRetrieveUpdateDestroyAPIView.as_view(), name='api_clients_rud'),
+    path('report/', views.client_report, name='client_report'),
+
 ]
                                                         

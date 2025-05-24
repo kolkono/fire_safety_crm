@@ -5,6 +5,7 @@ class Client(models.Model):
     phone = models.CharField('Телефон', max_length=20)
     email = models.EmailField('Электронная почта')
     address = models.TextField('Адрес')
+    city = models.CharField('Город', max_length=100, default='')
 
     def __str__(self):
         return self.name
