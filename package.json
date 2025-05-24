@@ -1,0 +1,24 @@
+{
+  "name": "fire_safety_project_new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolkono/fire_safety_crm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kolkono/fire_safety_crm/issues"
+  },
+  "homepage": "https://github.com/kolkono/fire_safety_crm#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+  
+}
