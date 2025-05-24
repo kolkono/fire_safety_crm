@@ -1,0 +1,35 @@
+[33mcommit 0dde0e656a0154d5bf7e078e85e64d0fff958746[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:43:53 2025 +0300
+
+    Добавлена модель Client, миграции и форма с валидацией
+
+[33mcommit cf681c6b177915018ac6cc2d8587f4ec5382e0f4[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:36:32 2025 +0300
+
+    Добавлены формы, views, urls и шаблоны для работы с клиентами
+
+[33mcommit da4a53a9c46fce1bec128d2b1b9335b4d5f9dbc1[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:33:18 2025 +0300
+
+    Добавлено приложение clients с моделью Client и валидацией
+
+[33mcommit 11aae658429ada7d9dc876ebb3f51c71a7b2e092[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:27:35 2025 +0300
+
+    Create Client model with name, phone, email, address fields and migrate
+
+[33mcommit 0eb3a9cb857696e8b9d4738c45fbeaf2329425d7[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:26:47 2025 +0300
+
+    Add clients app and register in INSTALLED_APPS
+
+[33mcommit b84052f750ad485cc14d5e625735c5c9457d50e9[m
+Author: kolkono <kolkono2@yandex.ru>
+Date:   Sat May 24 08:25:45 2025 +0300
+
+    Initial commit: created Django project with .gitignore

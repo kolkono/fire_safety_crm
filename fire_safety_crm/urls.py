@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('clients/', include('clients.urls')),  # подключаем routes из clients
+    path('clients/', include('clients.urls')),      # для фронтенд клиентов
+    path('api/', include('clients.api_urls')),      # для API клиентов
     path('admin/', admin.site.urls),
 ]
